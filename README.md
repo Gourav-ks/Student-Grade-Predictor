@@ -7,6 +7,7 @@
 Build an interactive Streamlit app to compare multiple classification models for predicting student grades using the UCI Student Performance dataset. The app should allow users to select the dataset, target column, and model, and display evaluation metrics, confusion matrix, and classification report.
 
 ## Dataset Description
+Source - - https://archive.ics.uci.edu/dataset/320/student+performance
 This app uses the UCI Student Performance dataset, which contains student achievement data from secondary education in Portuguese schools. The data includes student grades, demographic, social, and school-related features collected from school reports and questionnaires. Two datasets are provided: one for Mathematics (student-mat.csv) and one for Portuguese language (student-por.csv). The target attributes (G1, G2, G3) are period grades, with G3 as the final grade. G3 is highly correlated with G1 and G2, as it is the final year grade, while G1 and G2 are from earlier periods. Predicting G3 without G1 and G2 is more challenging but more useful for real-world applications.
 
 ## Models Used
