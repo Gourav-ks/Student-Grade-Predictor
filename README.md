@@ -1,5 +1,5 @@
 
-# Student Grade Predictor (ML Model Comparison App)
+# Student Grade Predictor
 
 ## Problem Statement
 Build an interactive Streamlit app to compare multiple classification models for predicting student grades using the UCI Student Performance dataset. The app should allow users to select the dataset, target column, and model, and display evaluation metrics, confusion matrix, and classification report.
